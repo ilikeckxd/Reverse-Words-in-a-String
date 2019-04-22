@@ -1,0 +1,21 @@
+sentence_to_reverse = input("Enter the sentence: ")
+sentence_to_list = []
+word = ""
+reversed_sentence = ""
+
+for letter in sentence_to_reverse:
+    if letter != " ":
+        word = word + letter
+    else:
+        sentence_to_list.append(word)
+        word = "" #歸零
+sentence_to_list.append(word)
+sentence_to_list.reverse()
+
+for letter in sentence_to_list:
+    if sentence_to_list.index(letter) == 0:
+        reversed_sentence = letter
+    else:
+        reversed_sentence = reversed_sentence + " " + letter
+
+print(reversed_sentence)
