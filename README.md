@@ -1,2 +1,3 @@
-# Reverse-Words-in-a-String
-reverse words in order, including space, using simple structures.
+151. Reverse Words in a String
+Given an input string, reverse the string word by word.
+https://leetcode.com/problems/reverse-words-in-a-string/
